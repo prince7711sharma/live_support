@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RS Education & Solution | Live Chat Support</title>
+  <meta name="description" content="Talk to Riddhi, your personal education counsellor at RS Education & Solution. Get real-time guidance on college admissions, scholarships, and career planning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+  <!-- ═══════════════════ HEADER ═══════════════════ -->
+  <header id="main-header">
+    <div class="logo-container">
+      <div class="logo-icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <div class="logo-text">
+        <h1>RS EDUCATION</h1>
+        <span>& Solution</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#universities">Universities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="header-cta" id="header-chat-btn">
+      <i class="fas fa-comments"></i>
+      Chat Now
+    </button>
+  </header>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <main class="hero" id="about">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Live Support Available
+      </div>
+      <h2>Unlock Your Dream<br><span class="gradient-text">College & Career</span></h2>
+      <p>Expert guidance from India's most trusted education consultancy. 12+ years of success, 500+ scholarships secured, 200+ partner universities.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" id="hero-chat-btn">
+          <i class="fas fa-comments"></i>
+          Talk to Riddhi Now
+        </button>
+        <button class="btn-outline">
+          <i class="fas fa-university"></i>
+          Explore Universities
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Scholarships Granted</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">200+</span>
+          <span class="stat-label">Partner Universities</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">12+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-card card-1">
+        <i class="fas fa-star text-yellow"></i>
+        <div>
+          <strong>100% Scholarship</strong>
+          <p>Merit-based funding available</p>
+        </div>
+      </div>
+      <div class="counsellor-avatar-wrap">
+        <div class="counsellor-ring"></div>
+        <img src="https://img.freepik.com/free-photo/young-beautiful-smiling-female-consultant-office-laptop_176420-7614.jpg" 
+             alt="Riddhi – Student Counsellor" class="counsellor-img">
+        <div class="counsellor-badge">
+          <span class="online-dot"></span>
+          Riddhi is Online
+        </div>
+      </div>
+      <div class="floating-card card-2">
+        <i class="fas fa-university text-primary"></i>
+        <div>
+          <strong>200+ Colleges</strong>
+          <p>Nationwide network</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ═══════════════════ SERVICES SECTION ═══════════════════ -->
+  <section class="services-section" id="services">
+    <div class="section-header">
+      <h3>What We Offer</h3>
+      <p>Comprehensive support for every step of your academic journey</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-compass"></i></div>
+        <h4>Career Counselling</h4>
+        <p>Personalized guidance from experienced mentors to help you choose the right path.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-award"></i></div>
+        <h4>100% Scholarships</h4>
+        <p>We help you unlock merit-based scholarships that cover your full tuition.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-university"></i></div>
+        <h4>Direct Admissions</h4>
+        <p>Get direct seats in top government and private universities across India.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-atom"></i></div>
+        <h4>IIT-JEE / NEET Prep</h4>
+        <p>Specialized guidance and resources for engineering and medical entrance exams.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-laptop"></i></div>
+        <h4>Online & Distance</h4>
+        <p>IGNOU, DU SOL, NIOS — we handle all open and distance learning admissions.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+        <h4>Govt Job Guidance</h4>
+        <p>Preparation support and counselling for various government job examinations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FLOATING CHAT TRIGGER ═══════════════════ -->
+  <div class="ai-trigger" id="ai-trigger">
+    <div class="trigger-avatar">
+      <img src="https://img.freepik.com/free-photo/young-beautiful-smiling-female-consultant-office-laptop_176420-7614.jpg" alt="Riddhi">
+      <span class="trigger-online"></span>
+    </div>
+    <div class="trigger-text">
+      <strong>Riddhi</strong>
+      <span>Ask me anything!</span>
+    </div>
+    <div class="trigger-pulse"></div>
+  </div>
+
+  <!-- ═══════════════════ CHAT PANEL ═══════════════════ -->
+  <div class="chat-panel" id="chat-panel" role="dialog" aria-label="Live chat with Riddhi">
+
+    <!-- Chat Header -->
+    <div class="chat-header">
+      <div class="chat-header-left">
+        <div class="header-avatar-wrap">
+          <img src="https://img.freepik.com/free-photo/young-beautiful-smiling-female-consultant-office-laptop_176420-7614.jpg" 
+               alt="Riddhi - Student Counsellor" class="header-avatar">
+          <span class="header-online"></span>
+        </div>
+        <div class="header-info">
+          <h3>Riddhi</h3>
+          <p id="chat-status">
+            <span class="status-online-dot"></span>
+            Online · Typically replies instantly
+          </p>
+        </div>
+      </div>
+      <div class="chat-header-actions">
+        <button id="mute-btn" title="Toggle Voice" class="icon-btn" aria-label="Mute/Unmute voice">
+          <i class="fas fa-volume-up" id="mute-icon"></i>
+        </button>
+        <button id="clear-btn" title="Clear Chat" class="icon-btn" aria-label="Clear conversation">
+          <i class="fas fa-rotate-left"></i>
+        </button>
+        <button id="close-chat" title="Close Chat" class="icon-btn" aria-label="Close chat">
+          <i class="fas fa-xmark"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Messages -->
+    <div class="messages-container" id="messages-container" role="log" aria-live="polite">
+      <!-- Initial greeting is injected by JS after a short delay -->
+    </div>
+
+    <!-- Quick Replies -->
+    <div class="quick-replies" id="quick-replies">
+      <button class="quick-btn" data-msg="What courses do you offer?">📚 Courses</button>
+      <button class="quick-btn" data-msg="Tell me about scholarships">🎓 Scholarships</button>
+      <button class="quick-btn" data-msg="Top B.Tech colleges near Delhi">🏛️ Colleges</button>
+      <button class="quick-btn" data-msg="Is counselling free?">💬 Pricing</button>
+    </div>
+
+    <!-- Input Area -->
+    <div class="chat-input-area">
+      <button class="icon-btn mic-btn" id="mic-btn" title="Speak to Riddhi" aria-label="Start voice input">
+        <i class="fas fa-microphone" id="mic-icon"></i>
+      </button>
+      <div class="input-wrapper">
+        <textarea id="chat-input" placeholder="Message Riddhi..." rows="1" aria-label="Type your message"></textarea>
+      </div>
+      <button class="send-btn" id="send-btn" aria-label="Send message">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════ LEAD FORM MODAL ═══════════════════ -->
+  <div class="modal-overlay" id="lead-modal" style="display:none;">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close form">
+        <i class="fas fa-xmark"></i>
+      </button>
+      <div class="modal-header">
+        <div class="modal-avatar">
+          <img src="https://img.freepik.com/free-photo/young-beautiful-smiling-female-consultant-office-laptop_176420-7614.jpg" alt="Riddhi">
+        </div>
+        <div>
+          <h3>Connect with an Expert</h3>
+          <p>Our senior counsellor will call you within 30 minutes.</p>
+        </div>
+      </div>
+      <form id="lead-form">
+        <div class="form-group">
+          <label for="lead-name">Your Name *</label>
+          <input type="text" id="lead-name" placeholder="e.g. Priya Sharma" required>
+        </div>
+        <div class="form-group">
+          <label for="lead-phone">WhatsApp / Phone *</label>
+          <input type="tel" id="lead-phone" placeholder="+91 98765 43210" required>
+        </div>
+        <div class="form-group">
+          <label for="lead-course">Course of Interest</label>
+          <input type="text" id="lead-course" placeholder="e.g. B.Tech, MBA, NEET">
+        </div>
+        <button class="btn-submit" type="submit" id="submit-lead">
+          <i class="fas fa-paper-plane"></i>
+          Connect Me Now
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
