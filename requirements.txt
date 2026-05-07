@@ -8,3 +8,4 @@ numpy
 jinja2
 python-multipart
 aiosqlite
+gunicorn==23.0.0
